@@ -39,7 +39,7 @@ app.use((err, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://test:yJMyEQ9XOS7Xck6l@cluster0.1aacova.mongodb.net/ToDoItems"
+    "mongodb+srv://your-own-mongo-endpoint"
   )
   .then((_) => {
     app.listen(8000, () => {
